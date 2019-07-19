@@ -123,7 +123,7 @@ timer()
                 $("#questions").append('<ol class="question">no</ol>')
                 $('.question').mouseup(function(){
                 if(this.innerText=='no'){gameover(),$('#asia').text('lol dumbass mortal get of here')}
-                if(this.innerText=='yes'){gameover(),$('#africa').text('nice bro lets chill'),$('#asia').append('<img id="face" src = "assets/spiritFace.png" ></img>')}
+                if(this.innerText=='yes'){gameover(),$('#asia').text('nice bro lets chill'),$('#asia').append('<img id="face" src = "assets/spiritFace.png" ></img>')}
                 })
             
             }
@@ -169,7 +169,7 @@ timer()
                          if(this.innerText=='No'){
                              gameover()
                              $('#asia').text('https://briiguy.github.io/unit-4-game/')
-                             $('#asia').append('<img id="face" src = "assets/donaldbreath.png" ></img>')
+                             $('#asia').append('<img id="face" src = "assets/asianlol.png" ></img>')
                          }
                          if(this.innerText=='I cant even fulfill my own role'){gameover(),$('#asia').text('stop playing my game and do your job')}
                     })
